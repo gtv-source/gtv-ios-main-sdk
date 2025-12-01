@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name GTVSdkIos
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Airbridge
+import CoreTelephony
+import CryptoKit
+import FirebaseAnalytics
+import FirebaseCore
+import FirebaseMessaging
+import Foundation
+import PhotosUI
+import StoreKit
+import Swift
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol GTVSdkListener : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onEventReceived(event: Swift.String, data: Any?)
+  #endif
+}
+public enum GTVEvents {
+  public static let LOGIN_SUCCESS: Swift.String
+  public static let LOGOUT_SUCCESS: Swift.String
+  public static let AD_LOADED: Swift.String
+  public static let AD_FAILED: Swift.String
+  public static let AD_CLOSED: Swift.String
+  public static let REWARD_EARNED: Swift.String
+  public static let PURCHASE_UPDATED: Swift.String
+  public static let BILLING_ERROR: Swift.String
+  public static let BILLING_CONNECTED: Swift.String
+  public static let BILLING_DISCONNECTED: Swift.String
+  public static let PURCHASE_CONSUMED: Swift.String
+  public static let PURCHASE_ACKNOWLEDGED: Swift.String
+  public static let PURCHASES_RESTORED: Swift.String
+  public static let GTV_INIT_ADS: Swift.String
+}
+public enum GTVStates {
+  public static let STATE_LOGIN: Swift.String
+  public static let STATE_UPDATE: Swift.String
+  public static let STATE_MAINTENANCE: Swift.String
+}
+@_hasMissingDesignatedInitializers public class GTVCore {
+  public static let shared: GTVSdkIos.GTVCore
+  final public let urlString: Swift.String
+  final public let urlOpenId: Swift.String
+  final public let urlGraph: Swift.String
+  final public let topicFirebase: Swift.String
+  public func initSdk(clientId: Swift.String, adjustToken: Swift.String = "", environmentAdjust: Swift.String = "sanbox", airbridgeAppName: Swift.String = "", airbridgeAppToken: Swift.String = "")
+  public func showSplash()
+  public func showLogin(state: Swift.String = GTVStates.STATE_LOGIN)
+  public func setListener(_ listener: any GTVSdkIos.GTVSdkListener)
+  public func logout()
+  public func trackAirbridgeEvent(category: Swift.String, customData: [Swift.String : Any] = [:], semantic: [Swift.String : Any] = [:])
+  public func setUserAttribute(roleId: Swift.String, roleName: Swift.String, areaId: Swift.String, areaName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setAirbridgeUserInfo(data: [Swift.String : Any]?)
+  #endif
+  public func getTokenApp() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func purchaseProduct(productId: Swift.String, CPOrder: Swift.String = "", completion: @escaping ([Swift.String : Any]?) -> Swift.Void)
+  #endif
+  public func restorePurchases()
+  public func showFloatingButton(size: CoreFoundation.CGFloat = 36.0)
+  public func hideFloatingButton()
+  public func showWarningButton(origin: CoreFoundation.CGPoint)
+  public func hideWarningButton()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getUserInfo(completion: @escaping ([Swift.String : Any]?) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+public typealias GTVSdk = GTVSdkIos.GTVCore
+public enum WarningButtonState {
+  case normal
+  case full
+  public static func == (a: GTVSdkIos.WarningButtonState, b: GTVSdkIos.WarningButtonState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WarningButton : UIKit.UIButton {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(normalImage: UIKit.UIImage?, fullImage: UIKit.UIImage?, normalSize: CoreFoundation.CGSize, fullSize: CoreFoundation.CGSize, origin: CoreFoundation.CGPoint)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func updateState(_ state: GTVSdkIos.WarningButtonState, animated: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func updatePosition(_ origin: CoreFoundation.CGPoint)
+  @objc deinit
+}
+extension GTVSdkIos.WarningButtonState : Swift.Equatable {}
+extension GTVSdkIos.WarningButtonState : Swift.Hashable {}

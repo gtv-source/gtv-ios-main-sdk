@@ -1,0 +1,4446 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "GTVSdkIos",
+    "printedName": "GTVSdkIos",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseMessaging",
+        "printedName": "FirebaseMessaging",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAnalytics",
+        "printedName": "FirebaseAnalytics",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GTVSdkListener",
+        "printedName": "GTVSdkListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onEventReceived",
+            "printedName": "onEventReceived(event:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos0A8ListenerP15onEventReceived5event4dataySS_ypSgtF",
+            "mangledName": "$s9GTVSdkIos0A8ListenerP15onEventReceived5event4dataySS_ypSgtF",
+            "moduleName": "GTVSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : GTVSdkIos.GTVSdkListener>",
+            "sugared_genericSig": "<Self where Self : GTVSdkIos.GTVSdkListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9GTVSdkIos0A8ListenerP",
+        "mangledName": "$s9GTVSdkIos0A8ListenerP",
+        "moduleName": "GTVSdkIos",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GTVEvents",
+        "printedName": "GTVEvents",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LOGIN_SUCCESS",
+            "printedName": "LOGIN_SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO13LOGIN_SUCCESSSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO13LOGIN_SUCCESSSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO13LOGIN_SUCCESSSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO13LOGIN_SUCCESSSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LOGOUT_SUCCESS",
+            "printedName": "LOGOUT_SUCCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO14LOGOUT_SUCCESSSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO14LOGOUT_SUCCESSSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO14LOGOUT_SUCCESSSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO14LOGOUT_SUCCESSSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AD_LOADED",
+            "printedName": "AD_LOADED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO9AD_LOADEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_LOADEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO9AD_LOADEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_LOADEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AD_FAILED",
+            "printedName": "AD_FAILED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO9AD_FAILEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_FAILEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO9AD_FAILEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_FAILEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AD_CLOSED",
+            "printedName": "AD_CLOSED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO9AD_CLOSEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_CLOSEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO9AD_CLOSEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO9AD_CLOSEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "REWARD_EARNED",
+            "printedName": "REWARD_EARNED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO13REWARD_EARNEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO13REWARD_EARNEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO13REWARD_EARNEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO13REWARD_EARNEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PURCHASE_UPDATED",
+            "printedName": "PURCHASE_UPDATED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO16PURCHASE_UPDATEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO16PURCHASE_UPDATEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO16PURCHASE_UPDATEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO16PURCHASE_UPDATEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BILLING_ERROR",
+            "printedName": "BILLING_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO13BILLING_ERRORSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO13BILLING_ERRORSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO13BILLING_ERRORSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO13BILLING_ERRORSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BILLING_CONNECTED",
+            "printedName": "BILLING_CONNECTED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO17BILLING_CONNECTEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO17BILLING_CONNECTEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO17BILLING_CONNECTEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO17BILLING_CONNECTEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BILLING_DISCONNECTED",
+            "printedName": "BILLING_DISCONNECTED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO20BILLING_DISCONNECTEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO20BILLING_DISCONNECTEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO20BILLING_DISCONNECTEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO20BILLING_DISCONNECTEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PURCHASE_CONSUMED",
+            "printedName": "PURCHASE_CONSUMED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO17PURCHASE_CONSUMEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO17PURCHASE_CONSUMEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO17PURCHASE_CONSUMEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO17PURCHASE_CONSUMEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PURCHASE_ACKNOWLEDGED",
+            "printedName": "PURCHASE_ACKNOWLEDGED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO21PURCHASE_ACKNOWLEDGEDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO21PURCHASE_ACKNOWLEDGEDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO21PURCHASE_ACKNOWLEDGEDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO21PURCHASE_ACKNOWLEDGEDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PURCHASES_RESTORED",
+            "printedName": "PURCHASES_RESTORED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO18PURCHASES_RESTOREDSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO18PURCHASES_RESTOREDSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO18PURCHASES_RESTOREDSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO18PURCHASES_RESTOREDSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GTV_INIT_ADS",
+            "printedName": "GTV_INIT_ADS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVEventsO12GTV_INIT_ADSSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVEventsO12GTV_INIT_ADSSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVEventsO12GTV_INIT_ADSSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVEventsO12GTV_INIT_ADSSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9GTVSdkIos9GTVEventsO",
+        "mangledName": "$s9GTVSdkIos9GTVEventsO",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GTVStates",
+        "printedName": "GTVStates",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "STATE_LOGIN",
+            "printedName": "STATE_LOGIN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVStatesO11STATE_LOGINSSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVStatesO11STATE_LOGINSSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVStatesO11STATE_LOGINSSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVStatesO11STATE_LOGINSSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "STATE_UPDATE",
+            "printedName": "STATE_UPDATE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVStatesO12STATE_UPDATESSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVStatesO12STATE_UPDATESSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVStatesO12STATE_UPDATESSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVStatesO12STATE_UPDATESSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "STATE_MAINTENANCE",
+            "printedName": "STATE_MAINTENANCE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos9GTVStatesO17STATE_MAINTENANCESSvpZ",
+            "mangledName": "$s9GTVSdkIos9GTVStatesO17STATE_MAINTENANCESSvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos9GTVStatesO17STATE_MAINTENANCESSvgZ",
+                "mangledName": "$s9GTVSdkIos9GTVStatesO17STATE_MAINTENANCESSvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9GTVSdkIos9GTVStatesO",
+        "mangledName": "$s9GTVSdkIos9GTVStatesO",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GTVCore",
+        "printedName": "GTVCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GTVCore",
+                "printedName": "GTVSdkIos.GTVCore",
+                "usr": "s:9GTVSdkIos7GTVCoreC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC6sharedACvpZ",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC6sharedACvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GTVCore",
+                    "printedName": "GTVSdkIos.GTVCore",
+                    "usr": "s:9GTVSdkIos7GTVCoreC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC6sharedACvgZ",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC6sharedACvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlString",
+            "printedName": "urlString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC9urlStringSSvp",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC9urlStringSSvp",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC9urlStringSSvg",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC9urlStringSSvg",
+                "moduleName": "GTVSdkIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlOpenId",
+            "printedName": "urlOpenId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC9urlOpenIdSSvp",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC9urlOpenIdSSvp",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC9urlOpenIdSSvg",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC9urlOpenIdSSvg",
+                "moduleName": "GTVSdkIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlGraph",
+            "printedName": "urlGraph",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC8urlGraphSSvp",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC8urlGraphSSvp",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC8urlGraphSSvg",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC8urlGraphSSvg",
+                "moduleName": "GTVSdkIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "topicFirebase",
+            "printedName": "topicFirebase",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC13topicFirebaseSSvp",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC13topicFirebaseSSvp",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC13topicFirebaseSSvg",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC13topicFirebaseSSvg",
+                "moduleName": "GTVSdkIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initSdk",
+            "printedName": "initSdk(clientId:adjustToken:environmentAdjust:airbridgeAppName:airbridgeAppToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC7initSdk8clientId11adjustToken17environmentAdjust16airbridgeAppName0lmI0ySS_S4StF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC7initSdk8clientId11adjustToken17environmentAdjust16airbridgeAppName0lmI0ySS_S4StF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSplash",
+            "printedName": "showSplash()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC10showSplashyyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC10showSplashyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLogin",
+            "printedName": "showLogin(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC9showLogin5stateySS_tF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC9showLogin5stateySS_tF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setListener",
+            "printedName": "setListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GTVSdkListener",
+                "printedName": "any GTVSdkIos.GTVSdkListener",
+                "usr": "s:9GTVSdkIos0A8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC11setListeneryyAA0aE0_pF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC11setListeneryyAA0aE0_pF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC6logoutyyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC6logoutyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackAirbridgeEvent",
+            "printedName": "trackAirbridgeEvent(category:customData:semantic:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC19trackAirbridgeEvent8category10customData8semanticySS_SDySSypGAHtF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC19trackAirbridgeEvent8category10customData8semanticySS_SDySSypGAHtF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserAttribute",
+            "printedName": "setUserAttribute(roleId:roleName:areaId:areaName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC16setUserAttribute6roleId0G4Name04areaH00jI0ySS_S3StF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC16setUserAttribute6roleId0G4Name04areaH00jI0ySS_S3StF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAirbridgeUserInfo",
+            "printedName": "setAirbridgeUserInfo(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC20setAirbridgeUserInfo4dataySDySSypGSg_tF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC20setAirbridgeUserInfo4dataySDySSypGSg_tF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenApp",
+            "printedName": "getTokenApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC11getTokenAppSSyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC11getTokenAppSSyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "purchaseProduct",
+            "printedName": "purchaseProduct(productId:CPOrder:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC15purchaseProduct9productId7CPOrder10completionySS_SSySDySSypGSgctF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC15purchaseProduct9productId7CPOrder10completionySS_SSySDySSypGSgctF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restorePurchases",
+            "printedName": "restorePurchases()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC16restorePurchasesyyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC16restorePurchasesyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showFloatingButton",
+            "printedName": "showFloatingButton(size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC18showFloatingButton4sizey14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC18showFloatingButton4sizey12CoreGraphics7CGFloatV_tF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideFloatingButton",
+            "printedName": "hideFloatingButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC18hideFloatingButtonyyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC18hideFloatingButtonyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWarningButton",
+            "printedName": "showWarningButton(origin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC17showWarningButton6originySo7CGPointV_tF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC17showWarningButton6originySo7CGPointV_tF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideWarningButton",
+            "printedName": "hideWarningButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC17hideWarningButtonyyF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC17hideWarningButtonyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserInfo",
+            "printedName": "getUserInfo(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7GTVCoreC11getUserInfo10completionyySDySSypGSgc_tF",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC11getUserInfo10completionyySDySSypGSgc_tF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9GTVSdkIos7GTVCoreC",
+        "mangledName": "$s9GTVSdkIos7GTVCoreC",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WarningButtonState",
+        "printedName": "WarningButtonState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "normal",
+            "printedName": "normal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GTVSdkIos.WarningButtonState.Type) -> GTVSdkIos.WarningButtonState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WarningButtonState",
+                    "printedName": "GTVSdkIos.WarningButtonState",
+                    "usr": "s:9GTVSdkIos18WarningButtonStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GTVSdkIos.WarningButtonState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WarningButtonState",
+                        "printedName": "GTVSdkIos.WarningButtonState",
+                        "usr": "s:9GTVSdkIos18WarningButtonStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GTVSdkIos18WarningButtonStateO6normalyA2CmF",
+            "mangledName": "$s9GTVSdkIos18WarningButtonStateO6normalyA2CmF",
+            "moduleName": "GTVSdkIos"
+          },
+          {
+            "kind": "Var",
+            "name": "full",
+            "printedName": "full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GTVSdkIos.WarningButtonState.Type) -> GTVSdkIos.WarningButtonState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WarningButtonState",
+                    "printedName": "GTVSdkIos.WarningButtonState",
+                    "usr": "s:9GTVSdkIos18WarningButtonStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GTVSdkIos.WarningButtonState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WarningButtonState",
+                        "printedName": "GTVSdkIos.WarningButtonState",
+                        "usr": "s:9GTVSdkIos18WarningButtonStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9GTVSdkIos18WarningButtonStateO4fullyA2CmF",
+            "mangledName": "$s9GTVSdkIos18WarningButtonStateO4fullyA2CmF",
+            "moduleName": "GTVSdkIos"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WarningButtonState",
+                "printedName": "GTVSdkIos.WarningButtonState",
+                "usr": "s:9GTVSdkIos18WarningButtonStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WarningButtonState",
+                "printedName": "GTVSdkIos.WarningButtonState",
+                "usr": "s:9GTVSdkIos18WarningButtonStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos18WarningButtonStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9GTVSdkIos18WarningButtonStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos18WarningButtonStateO9hashValueSivp",
+            "mangledName": "$s9GTVSdkIos18WarningButtonStateO9hashValueSivp",
+            "moduleName": "GTVSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos18WarningButtonStateO9hashValueSivg",
+                "mangledName": "$s9GTVSdkIos18WarningButtonStateO9hashValueSivg",
+                "moduleName": "GTVSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos18WarningButtonStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9GTVSdkIos18WarningButtonStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "GTVSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9GTVSdkIos18WarningButtonStateO",
+        "mangledName": "$s9GTVSdkIos18WarningButtonStateO",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WarningButton",
+        "printedName": "WarningButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(normalImage:fullImage:normalSize:fullSize:origin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarningButton",
+                "printedName": "GTVSdkIos.WarningButton",
+                "usr": "c:@M@GTVSdkIos@objc(cs)WarningButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9GTVSdkIos13WarningButtonC11normalImage04fullF00E4Size0gH06originACSo7UIImageCSg_AKSo6CGSizeVAMSo7CGPointVtcfc",
+            "mangledName": "$s9GTVSdkIos13WarningButtonC11normalImage04fullF00E4Size0gH06originACSo7UIImageCSg_AKSo6CGSizeVAMSo7CGPointVtcfc",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateState",
+            "printedName": "updateState(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WarningButtonState",
+                "printedName": "GTVSdkIos.WarningButtonState",
+                "usr": "s:9GTVSdkIos18WarningButtonStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos13WarningButtonC11updateState_8animatedyAA0cdF0O_SbtF",
+            "mangledName": "$s9GTVSdkIos13WarningButtonC11updateState_8animatedyAA0cdF0O_SbtF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePosition",
+            "printedName": "updatePosition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos13WarningButtonC14updatePositionyySo7CGPointVF",
+            "mangledName": "$s9GTVSdkIos13WarningButtonC14updatePositionyySo7CGPointVF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarningButton",
+                "printedName": "GTVSdkIos.WarningButton",
+                "usr": "c:@M@GTVSdkIos@objc(cs)WarningButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GTVSdkIos@objc(cs)WarningButton(im)initWithFrame:",
+            "mangledName": "$s9GTVSdkIos13WarningButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "GTVSdkIos",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GTVSdkIos@objc(cs)WarningButton",
+        "mangledName": "$s9GTVSdkIos13WarningButtonC",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Airbridge",
+        "printedName": "Airbridge",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabEvents.swift",
+      "kind": "Array",
+      "offset": 127,
+      "length": 28,
+      "value": "[\"Sự Kiện\", \"Tin Tức\"]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabEvents.swift",
+      "kind": "Array",
+      "offset": 197,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabEvents.swift",
+      "kind": "Array",
+      "offset": 239,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabEvents.swift",
+      "kind": "Array",
+      "offset": 609,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabEvents.swift",
+      "kind": "Array",
+      "offset": 647,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 7,
+      "value": "\"login\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 8,
+      "value": "\"logout\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 11,
+      "value": "\"gtv_token\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 15,
+      "value": "\"gtv_client_id\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 13,
+      "value": "\"gtv_package\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 12,
+      "value": "\"gtv_status\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 14,
+      "value": "\"user_role_id\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 14,
+      "value": "\"user_area_id\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 16,
+      "value": "\"user_role_name\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 16,
+      "value": "\"user_area_name\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 274,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 7,
+      "value": "\"clock\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 813,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 985,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/NewsEventCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1047,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/IAPManager.swift",
+      "kind": "Array",
+      "offset": 181,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/IAPManager.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/IAPManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/FirebaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/FirebaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/FirebaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SplashViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "Array",
+      "offset": 160,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 575,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 604,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SidebarPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 17,
+      "value": "\"GTVSdkResources\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 17,
+      "value": "\"GTVLoginSuccess\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 18,
+      "value": "\"GTVLogoutSuccess\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1106,
+      "length": 13,
+      "value": "\"GTVAdLoaded\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 11,
+      "value": "\"GTVFailed\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 11,
+      "value": "\"GTVClosed\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1250,
+      "length": 17,
+      "value": "\"GTVRewardEarned\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 20,
+      "value": "\"GTVPurchaseUpdated\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1373,
+      "length": 17,
+      "value": "\"GTVBillingError\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1433,
+      "length": 21,
+      "value": "\"GTVBillingConnected\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 24,
+      "value": "\"GTVBillingDisconnected\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 21,
+      "value": "\"GTVPurchaseConsumed\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 25,
+      "value": "\"GTVPurchaseAcknowledged\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 21,
+      "value": "\"GTVPurchaseRestored\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 12,
+      "value": "\"GTVInitAds\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1938,
+      "length": 10,
+      "value": "\"GTVLogin\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 1986,
+      "length": 11,
+      "value": "\"GTVUpdate\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2040,
+      "length": 16,
+      "value": "\"GTVMaintenance\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2672,
+      "length": 27,
+      "value": "\"https:\/\/accounts.gplay.vn\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2727,
+      "length": 21,
+      "value": "\"https:\/\/id.gplay.vn\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
+      "length": 24,
+      "value": "\"https:\/\/graph.gplay.vn\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2831,
+      "length": 12,
+      "value": "\"games-prod\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "Array",
+      "offset": 3099,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 3307,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 3347,
+      "length": 8,
+      "value": "\"sanbox\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 3392,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 3432,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "Dictionary",
+      "offset": 6393,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "Dictionary",
+      "offset": 6432,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 7587,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
+      "kind": "FloatLiteral",
+      "offset": 12949,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 12,
+      "value": "\"Hỗ Trợ\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 25,
+      "value": "\"--Chọn loại lỗi--\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 704,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 865,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 936,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 948,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1103,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1118,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 1232,
+      "length": 13,
+      "value": "\"Tiêu đề\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 8,
+      "value": "\"Server\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 18,
+      "value": "\"Tên nhân vật\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1589,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1623,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1663,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 21,
+      "value": "\"Mô tả chi tiết\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1770,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1826,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1835,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1847,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1857,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2038,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2091,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2144,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2154,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2166,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2177,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2215,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 2458,
+      "length": 25,
+      "value": "\"Gửi ảnh đính kèm\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2527,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 2742,
+      "length": 18,
+      "value": "\"Gửi Hỗ Trợ\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2881,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2944,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3001,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3016,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "StringLiteral",
+      "offset": 3142,
+      "length": 8,
+      "value": "\"Đóng\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3270,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3333,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3390,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "Array",
+      "offset": 9719,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "Array",
+      "offset": 9738,
+      "length": 66,
+      "value": "[\"Lỗi nạp\", \"Lỗi tài khoản\", \"Lỗi game\", \"Lỗi khác\"]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "Array",
+      "offset": 9824,
+      "length": 28,
+      "value": "[false, false, false, false]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "Array",
+      "offset": 20700,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SupportReportView.swift",
+      "kind": "Array",
+      "offset": 20730,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/FloatingButtonOverlay .swift",
+      "kind": "Array",
+      "offset": 129,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/FloatingButtonOverlay .swift",
+      "kind": "Array",
+      "offset": 173,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/WarningViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1602,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "Dictionary",
+      "offset": 132,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "Array",
+      "offset": 197,
+      "length": 146,
+      "value": "[(\"user\", \"Tài khoản\"), (\"facebook\", \"Facebook\"), (\"ic_sdk_float\", \"Group\"), (\"messenger\", \"Chat Admin\")]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 471,
+      "length": 3,
+      "value": "125"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7335,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7387,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7541,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7545,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7557,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7561,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7572,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7576,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "FloatLiteral",
+      "offset": 7588,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7728,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7886,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7958,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8073,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabHome.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8258,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "FloatLiteral",
+      "offset": 1655,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1949,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2023,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2099,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2192,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2298,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2527,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2619,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2713,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 2799,
+      "length": 14,
+      "value": "\"Tài khoản\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2902,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3018,
+      "length": 19,
+      "value": "\"Tên tài khoản\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3055,
+      "length": 10,
+      "value": "\"Username\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3130,
+      "length": 7,
+      "value": "\"Email\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3155,
+      "length": 7,
+      "value": "\"Email\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3227,
+      "length": 22,
+      "value": "\"Số điện thoại\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3267,
+      "length": 13,
+      "value": "\"PhoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 8,
+      "value": "\"Đóng\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3525,
+      "length": 3,
+      "value": "211"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3541,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3544,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3555,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3558,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3570,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3620,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3692,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3962,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4097,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4610,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4807,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "StringLiteral",
+      "offset": 4943,
+      "length": 19,
+      "value": "\"xmark.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5027,
+      "length": 3,
+      "value": "211"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5031,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5043,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5046,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5057,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5060,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5072,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5142,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5399,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5562,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5635,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/AccountPopup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5708,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 112,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 11,
+      "value": "\"Báo Cáo\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "FloatLiteral",
+      "offset": 867,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 940,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1205,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1557,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1624,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 12,
+      "value": "\"phone.fill\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1887,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1902,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1968,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1983,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "StringLiteral",
+      "offset": 2062,
+      "length": 23,
+      "value": "\"Hotline: 024 73082266\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2138,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2919,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "FloatLiteral",
+      "offset": 2929,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3075,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "StringLiteral",
+      "offset": 3191,
+      "length": 330,
+      "value": "\"Cảm ơn bạn đã sử dụng dịch vụ của GTV.\nTrong quá trình trải nghiệm nếu gặp lỗi, bạn vui lòng gửi thông tin tại đây để được hỗ trợ nhanh nhất. \nThời gian tiếp nhận và phản hồi là 24h. \nHotline hỗ trợ: (024) 73082266\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3604,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3659,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 12,
+      "value": "\"Báo Lỗi\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3954,
+      "length": 3,
+      "value": "211"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3958,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3970,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3973,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3984,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3987,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3999,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4110,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4810,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4882,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5604,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5934,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6310,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6393,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/PopupTabReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6468,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 17,
+      "value": "\"GTVLoginSuccess\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 133,
+      "length": 17,
+      "value": "\"GTVLoginWidthGG\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 17,
+      "value": "\"GTVLoginWidthFB\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 12,
+      "value": "\"GTVPlayNow\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 16,
+      "value": "\"GTVCloseLinked\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 18,
+      "value": "\"GTVLinkedSuccess\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 13,
+      "value": "\"GTVOpenLink\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 11,
+      "value": "\"GTVUpdate\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 16,
+      "value": "\"GTVMaintenance\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 741,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12798,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14479,
+      "length": 15,
+      "value": "\"ic_sdk_splash\""
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14828,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14899,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14979,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16036,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16063,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16101,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16161,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16175,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16234,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16284,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/AirbridgeManager.swift",
+      "kind": "Dictionary",
+      "offset": 477,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/AirbridgeManager.swift",
+      "kind": "Dictionary",
+      "offset": 516,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
