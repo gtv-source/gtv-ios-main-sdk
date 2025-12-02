@@ -110,13 +110,6 @@
         "moduleName": "GTVSdkIos"
       },
       {
-        "kind": "Import",
-        "name": "FirebaseCore",
-        "printedName": "FirebaseCore",
-        "declKind": "Import",
-        "moduleName": "GTVSdkIos"
-      },
-      {
         "kind": "TypeDecl",
         "name": "GTVSdkListener",
         "printedName": "GTVSdkListener",
@@ -2728,6 +2721,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/FirebaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/SplashViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 382,
@@ -2821,224 +2821,224 @@
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 425,
       "length": 17,
       "value": "\"GTVSdkResources\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 459,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 991,
+      "offset": 970,
       "length": 17,
       "value": "\"GTVLoginSuccess\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1027,
       "length": 18,
       "value": "\"GTVLogoutSuccess\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1085,
       "length": 13,
       "value": "\"GTVAdLoaded\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1133,
       "length": 11,
       "value": "\"GTVFailed\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1200,
+      "offset": 1179,
       "length": 11,
       "value": "\"GTVClosed\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
+      "offset": 1229,
       "length": 17,
       "value": "\"GTVRewardEarned\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1314,
+      "offset": 1293,
       "length": 20,
       "value": "\"GTVPurchaseUpdated\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
+      "offset": 1352,
       "length": 17,
       "value": "\"GTVBillingError\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1412,
       "length": 21,
       "value": "\"GTVBillingConnected\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1479,
       "length": 24,
       "value": "\"GTVBillingDisconnected\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1567,
+      "offset": 1546,
       "length": 21,
       "value": "\"GTVPurchaseConsumed\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1635,
+      "offset": 1614,
       "length": 25,
       "value": "\"GTVPurchaseAcknowledged\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1683,
       "length": 21,
       "value": "\"GTVPurchaseRestored\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1747,
       "length": 12,
       "value": "\"GTVInitAds\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1938,
+      "offset": 1917,
       "length": 10,
       "value": "\"GTVLogin\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1986,
+      "offset": 1965,
       "length": 11,
       "value": "\"GTVUpdate\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
+      "offset": 2019,
       "length": 16,
       "value": "\"GTVMaintenance\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2672,
+      "offset": 2651,
       "length": 27,
       "value": "\"https:\/\/accounts.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 2706,
       "length": 21,
       "value": "\"https:\/\/id.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2754,
       "length": 24,
       "value": "\"https:\/\/graph.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
+      "offset": 2810,
       "length": 12,
       "value": "\"games-prod\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Array",
-      "offset": 3099,
+      "offset": 3078,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3286,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3347,
+      "offset": 3326,
       "length": 8,
       "value": "\"sanbox\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3411,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Dictionary",
-      "offset": 6393,
+      "offset": 6372,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Dictionary",
-      "offset": 6432,
+      "offset": 6411,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 7587,
+      "offset": 7566,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "FloatLiteral",
-      "offset": 12949,
+      "offset": 12928,
       "length": 4,
       "value": "36.0"
     },
