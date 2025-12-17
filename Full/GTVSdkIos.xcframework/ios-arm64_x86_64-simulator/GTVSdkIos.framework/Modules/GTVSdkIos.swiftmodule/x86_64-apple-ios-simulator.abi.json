@@ -20,6 +20,294 @@
       },
       {
         "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GTVAdmobManager",
+        "printedName": "GTVAdmobManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GTVAdmobManager",
+                "printedName": "GTVSdkIos.GTVAdmobManager",
+                "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager(cpy)shared",
+            "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC6sharedACvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GTVAdmobManager",
+                    "printedName": "GTVSdkIos.GTVAdmobManager",
+                    "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager(cm)shared",
+                "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC6sharedACvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initAdmob",
+            "printedName": "initAdmob(admobID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager(im)initAdmobWithAdmobID:",
+            "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC9initAdmob7admobIDySS_tF",
+            "moduleName": "GTVSdkIos",
+            "objc_name": "initAdmobWithAdmobID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewarded",
+            "printedName": "showRewarded(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager(im)showRewardedFrom:",
+            "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC12showRewarded4fromySo16UIViewControllerC_tF",
+            "moduleName": "GTVSdkIos",
+            "objc_name": "showRewardedFrom:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GTVSdkIos@objc(cs)GTVAdmobManager(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC29adDidDismissFullScreenContentyySo07GADFullI12PresentingAd_pF",
+            "moduleName": "GTVSdkIos",
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GTVSdkIos@objc(cs)GTVAdmobManager(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullK12PresentingAd_p_s0N0_ptF",
+            "moduleName": "GTVSdkIos",
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GTVSdkIos@objc(cs)GTVAdmobManager",
+        "mangledName": "$s9GTVSdkIos15GTVAdmobManagerC",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -45,6 +333,143 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "GTVSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Loading",
+        "printedName": "Loading",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Loading",
+                "printedName": "GTVSdkIos.Loading",
+                "usr": "s:9GTVSdkIos7LoadingC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7LoadingC6sharedACvpZ",
+            "mangledName": "$s9GTVSdkIos7LoadingC6sharedACvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Loading",
+                    "printedName": "GTVSdkIos.Loading",
+                    "usr": "s:9GTVSdkIos7LoadingC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7LoadingC6sharedACvgZ",
+                "mangledName": "$s9GTVSdkIos7LoadingC6sharedACvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7LoadingC4showyyF",
+            "mangledName": "$s9GTVSdkIos7LoadingC4showyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9GTVSdkIos7LoadingC4hideyyF",
+            "mangledName": "$s9GTVSdkIos7LoadingC4hideyyF",
+            "moduleName": "GTVSdkIos",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9GTVSdkIos7LoadingC",
+        "mangledName": "$s9GTVSdkIos7LoadingC",
+        "moduleName": "GTVSdkIos",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1090,6 +1515,57 @@
                 "declKind": "Accessor",
                 "usr": "s:9GTVSdkIos7GTVCoreC6sharedACvgZ",
                 "mangledName": "$s9GTVSdkIos7GTVCoreC6sharedACvgZ",
+                "moduleName": "GTVSdkIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Loading",
+                "printedName": "GTVSdkIos.Loading",
+                "usr": "s:9GTVSdkIos7LoadingC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9GTVSdkIos7GTVCoreC7loadingAA7LoadingCvpZ",
+            "mangledName": "$s9GTVSdkIos7GTVCoreC7loadingAA7LoadingCvpZ",
+            "moduleName": "GTVSdkIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Loading",
+                    "printedName": "GTVSdkIos.Loading",
+                    "usr": "s:9GTVSdkIos7LoadingC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9GTVSdkIos7GTVCoreC7loadingAA7LoadingCvgZ",
+                "mangledName": "$s9GTVSdkIos7GTVCoreC7loadingAA7LoadingCvgZ",
                 "moduleName": "GTVSdkIos",
                 "static": true,
                 "implicit": true,
@@ -2553,6 +3029,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Ads\/AdmobManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Ads\/AdmobManager.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/SessionManager.swift",
       "kind": "StringLiteral",
       "offset": 67,
@@ -2695,9 +3185,16 @@
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/IAPManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4229,
+      "offset": 4335,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/ViewController\/Loading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/FirebaseManager.swift",
@@ -2926,119 +3423,119 @@
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1742,
       "length": 12,
       "value": "\"GTVInitAds\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1912,
       "length": 10,
       "value": "\"GTVLogin\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 1965,
+      "offset": 1960,
       "length": 11,
       "value": "\"GTVUpdate\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2019,
+      "offset": 2014,
       "length": 16,
       "value": "\"GTVMaintenance\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 2688,
       "length": 27,
       "value": "\"https:\/\/accounts.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2743,
       "length": 21,
       "value": "\"https:\/\/id.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 2791,
       "length": 24,
       "value": "\"https:\/\/graph.gplay.vn\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 2847,
       "length": 12,
       "value": "\"games-prod\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Array",
-      "offset": 3078,
+      "offset": 3115,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3323,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3363,
       "length": 8,
       "value": "\"sanbox\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3408,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 3411,
+      "offset": 3448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Dictionary",
-      "offset": 6372,
+      "offset": 6409,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "Dictionary",
-      "offset": 6411,
+      "offset": 6448,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "StringLiteral",
-      "offset": 7566,
+      "offset": 7603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hoangtran\/Desktop\/ios-sdk\/GTVSdkIos\/GTVSdkIos\/Sources\/Core\/GTVSdk.swift",
       "kind": "FloatLiteral",
-      "offset": 12928,
+      "offset": 13183,
       "length": 4,
       "value": "36.0"
     },

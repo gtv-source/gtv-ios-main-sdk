@@ -18,6 +18,12 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class Loading {
+  public static let shared: GTVSdkIos.Loading
+  final public func show()
+  final public func hide()
+  @objc deinit
+}
 public protocol GTVSdkListener : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func onEventReceived(event: Swift.String, data: Any?)
@@ -46,6 +52,7 @@ public enum GTVStates {
 }
 @_hasMissingDesignatedInitializers public class GTVCore {
   public static let shared: GTVSdkIos.GTVCore
+  public static let loading: GTVSdkIos.Loading
   final public let urlString: Swift.String
   final public let urlOpenId: Swift.String
   final public let urlGraph: Swift.String

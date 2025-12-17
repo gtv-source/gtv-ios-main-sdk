@@ -9,6 +9,7 @@ import FirebaseAnalytics
 import FirebaseCore
 import FirebaseMessaging
 import Foundation
+import GoogleMobileAds
 import PhotosUI
 import StoreKit
 import Swift
@@ -18,6 +19,22 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class GTVAdmobManager : ObjectiveC.NSObject {
+  @objc public static let shared: GTVSdkIos.GTVAdmobManager
+  @objc public func initAdmob(admobID: Swift.String)
+  @objc public func showRewarded(from viewController: UIKit.UIViewController)
+  @objc deinit
+}
+extension GTVSdkIos.GTVAdmobManager : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+}
+@_hasMissingDesignatedInitializers final public class Loading {
+  public static let shared: GTVSdkIos.Loading
+  final public func show()
+  final public func hide()
+  @objc deinit
+}
 public protocol GTVSdkListener : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func onEventReceived(event: Swift.String, data: Any?)
@@ -46,6 +63,7 @@ public enum GTVStates {
 }
 @_hasMissingDesignatedInitializers public class GTVCore {
   public static let shared: GTVSdkIos.GTVCore
+  public static let loading: GTVSdkIos.Loading
   final public let urlString: Swift.String
   final public let urlOpenId: Swift.String
   final public let urlGraph: Swift.String
